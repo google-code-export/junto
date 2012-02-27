@@ -159,7 +159,7 @@ class Vertex (val name: String) {
     ProbUtil.Normalize(neighborClone)
 		
     val ent = GetNeighborhoodEntropy(neighborClone)
-    var cv = math.log(beta) / math.log(beta + ent)
+    var cv = math.log(beta) / math.log(beta + math.exp(ent))
 		
     var isZeroEntropy = false
 
