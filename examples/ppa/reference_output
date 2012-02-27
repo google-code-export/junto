@@ -2,15 +2,6 @@ ZERO ENTROPY NEIGHBORHOOD Heuristic adjustment used for 0 nodes!
 Total edges: 213542
 Using mad ...
 
-Iteration: 1
-Iteration: 2
-Iteration: 3
-Iteration: 4
-Iteration: 5
-Iteration: 6
-Iteration: 7
-Iteration: 8
-Iteration: 9
-Iteration: 10
-precision 0.8281444582814446
-mrr 0.9139165628891657
+Iteration: 1 2 3 4 5 6 7 8 9 10
+precision 0.8225404732254047
+mrr 0.9111145703611457
